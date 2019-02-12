@@ -1,0 +1,17 @@
+body {
+  background: #ccc;
+  text-align: center;
+  
+}
+
+#timer{
+  font-size: 16px;
+
+｝
+
+
+button{
+  border: none;
+  cursor: pointer;
+  background: #fff
+}
