@@ -8,8 +8,8 @@
   var elapsedTime = 0;
 
   function updateTimerText() {
-    var m = elapsedTime / 60000;
-    var s = (elapsedTime % 60000) / 1000;
+    var m = Math.floor(elapsedTime / 60000);
+    var s = Math.floor(elapsedTime % 60000 / 1000);
     var ms = elapsedTime % 1000; 
     
     timer.textContent = m + ':' + s + '.' + ms;
@@ -20,8 +20,10 @@
     setTimeout(function() {
       elapsedTime = Date.now() - startTime;
       console.log(elapsedTime);
+      updateTimerText();
+      countUp();
     }, 10);
-  };
+  }
 
    start.addEventListener('click', function(){
      startTime = Date.now();
