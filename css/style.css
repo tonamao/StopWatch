@@ -1,17 +1,47 @@
 body {
   background: #ccc;
-  text-align: center;
   
 }
-
-#timer{
-  font-size: 16px;
-
-｝
-
 
 button{
   border: none;
   cursor: pointer;
-  background: #fff
 }
+
+#container{
+  text-align: center;
+  width: 240px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 50%;
+  background: #fff
+  
+}
+
+#timer{
+  font-size: 24px;
+}
+
+
+.btn-square-shadow {
+  display: inline-block;
+  width: 50px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square-shadow:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+
+
+
+
+
