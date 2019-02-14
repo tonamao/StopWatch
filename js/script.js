@@ -9,7 +9,6 @@
  var timerId;
  var pastTime = 0;
  var isRunning = false;
- var isTesting = false;
 
  function updateTimerText() {
    var m = Math.floor(elapsedTime / 60000);
@@ -44,15 +43,15 @@
 
   onoff.addEventListener('click', function(){
     //click START
-    if(!(isTesting)){
-      isTesting = true;
+    if(!(isRunning)){
+      isRunning = true;
       icon.className = 'far fa-pause-circle';
       onoff.style.color = '#F27398';
       startTime = Date.now();
       countUp();
     //click STOP
     } else {
-      isTesting = false;
+      isRunning = false;
       icon.className = 'far fa-play-circle';
       pastTime += Date.now() - startTime;
       clearTimeout(timerId);
