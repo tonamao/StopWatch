@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="UTF-8">
-  <title>StopWatch</title>
-  <link rel="stylesheet" href="css/style.css" />
+	<meta charset="UTF-8">
+	<title>StopWatch</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
+
 <body>
-  <div id="container">
-    <div id="timer">00:00.000</div>
-    <div id="btns">
-      <a href="#" class="btn-square-shadow" id="start">START</a>
-      <a href="#" class="btn-square-shadow" id="stop">STOP</a>
-      <a href="#" class="btn-square-shadow" id="reset">RESET</a>
-    </div>
-  </div>
-  <script src="js/script.js"></script>
+	<div id="container">
+		<div id="timer">00:00.000</div>
+		<div id="btns">
+			<a href="#" class="btn-circle-flat" id="onoff">
+				<i class="far fa-play-circle" id="icon"></i>
+			</a>
+			<a href="#" class="btn-circle-flat" id="reset">
+				<i class="fas fa-undo-alt"></i>
+			</a>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
 </body>
-</html>
