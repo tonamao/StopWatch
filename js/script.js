@@ -53,6 +53,7 @@
     } else {
       isRunning = false;
       icon.className = 'far fa-play-circle';
+      onoff.style.color = '#58BE89';
       pastTime += Date.now() - startTime;
       clearTimeout(timerId);
     }
