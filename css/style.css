@@ -1,83 +1,71 @@
 body {
- background: #ccc;
-
-}
-
-button{
- border: none;
- cursor: pointer;
-}
-
-#container{
- text-align: center;
- width: 360px;
- height: 360px;
- margin: 20px auto;
- padding: 10px;
- border-radius: 50%;
+background: #F8EFBA;
 
 }
 
 #container{
-    color: #FFF;
-    background: #636e72;
-    border-bottom: solid 6px #373d3f;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+text-align: center;
+width: 360px;
+height: 360px;
+margin: 20px auto;
+padding: 10px;
+border-radius: 50%;
+   color: #FFF;
+   background: #eccc68;
+   border-bottom: solid 6px #b79e50;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+
 }
 
 #timer{
- font-family: 'Courier New', sans-serif;
- height: 64px;
- background: #fff;
- color: #373d3f;
- font-size: 48px;
- margin: 10px;
- margin-top: 88px;
- margin-bottom: 32px;
- border-radius: 16px;
+font-family: 'Courier New', sans-serif;
+background: #fff;
+color: #373d3f;
+font-size: 48px;
+margin: 36px;
+margin-top: 96px;
+border-radius: 16px;
+user-select: none;
 }
 
 .btn-circle-flat {
-  display: inline-block;
-  text-decoration: none;
-  background: #87befd;
-  color: #FFF;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-  overflow: hidden;
-  transition: .4s;
+ display: inline-block;
+ text-decoration: none;
+ /*background: #87befd;*/
+ background: #fff;
+ width: 96px;
+ height: 96px;
+ line-height: 96px;
+ border-radius: 50%;
+ text-align: center;
+ margin-right: 12px;
+ margin-left: 12px;
+ margin-top: 8px;
+ margin-bottom: 8px;
+ vertical-align: middle;
+ overflow: hidden;
+ transition: .4s;
 }
 
 .btn-circle-flat i {
-  /*ボタン自体*/
-  content: '';
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  vertical-align: middle;
-  top: 9px;
-  border-radius: 50%;
-  font-size: 40px;
+ /*ボタン自体*/
+ vertical-align: middle;
+ top: 9px;
+ border-radius: 50%;
+ font-size: 60px;
 
 }
 
-.btn-circle-flat:hover {
-  background: #668ad8;
-}
 
 #onoff{
- color: #58BE89;
+color: #58BE89;
 }
 
 #reset{
- color: #40AAEF;
+color: #40AAEF;
 }
 
 /* START: #58BE89
-   STOP : #F27398
-   RESET: #40AAEF
- */
+  STOP : #F27398
+  RESET: #40AAEF
+*/
